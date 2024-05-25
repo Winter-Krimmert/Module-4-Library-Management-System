@@ -1,0 +1,50 @@
+Library Management System
+
+Overview
+
+    The Library Management System is a comprehensive program designed to manage the core operations of a library. 
+Built with object-oriented principles in Python, the system provides functionalities to handle books, users, 
+authors, and genres efficiently. This program ensures encapsulation, data integrity, and ease of use, making 
+it suitable for small to medium-sized libraries. Users can borrow and return books, while administrators can 
+manage the library's collection and user base through a straightforward menu-driven interface.
+
+Features
+
+Book Management:
+
+Add New Books: Easily add new books to the library's collection, specifying details such as title, author, ISBN, and 
+publication date.
+Borrow and Return Books: Users can borrow books if available and return them once done. The system tracks the 
+borrowing status of each book.
+Search Books: Quickly search for books using their ISBN to find specific titles in the collection.
+Display Books: View a list of all books in the library, including their availability status.
+
+User Management:
+
+Add New Users: Register new users with their name and unique library ID.
+View User Details: Look up details of registered users, including their borrowed books.
+Display Users: List all registered users in the library system.
+
+Author Management:
+
+Add New Authors: Add new authors by providing their name and biography.
+View Author Details: Search for authors to view their biographies.
+Display Authors: Display a list of all authors in the library database.
+Genre Management:
+
+Add New Genres: Define new genres with their name, description, and category.
+View Genre Details: Retrieve details of specific genres.
+Display Genres: List all genres available in the library system.
+Getting Started
+
+To start using the Library Management System, simply run the main_menu() function. The interactive menu will guide 
+you through various operations, such as managing books, users, authors, and genres. Input validation ensures that 
+all data entered conforms to expected formats, maintaining the integrity and reliability of the library's database.
+
+This system is designed to be easily extendable, allowing for future enhancements and customizations as needed. 
+Whether for personal use or managing a community library, this program offers a robust solution for library management needs.
+
+
+
+
+
